@@ -6,7 +6,6 @@ char box[]={'O','1','2','3','4','5','6','7','8','9'};
 
 void playboard()
 {
-//    system("cls");
     cout<<"Tic Tac Toe"<<endl;
     cout<<"Player 1: X"<<endl<<"Player 2: O"<<endl;
     cout<<"    |    |    "<<endl;
@@ -79,7 +78,7 @@ int main()
             box[9]=mark;
         else
         {
-            cout<<"invalid move";
+            cout<<"Invalid Move";
             player--;
             cin.ignore();
             cin.get();
